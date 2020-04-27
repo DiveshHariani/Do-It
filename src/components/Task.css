@@ -1,0 +1,23 @@
+.card {
+    padding: 3px;
+}
+.customCard {
+    border: 2px solid rgb(110,110,110);
+    border-radius: 4px;
+    padding: 4px;
+}
+.card-title {
+    font-weight: bold;
+}
+.card-subtitle {
+    font-weight: bold;
+}
+.card-text {
+    font-size: 20px;
+}
+.submission {
+    text-align: center;
+}
+.myclass {
+    background-color: red;
+}
