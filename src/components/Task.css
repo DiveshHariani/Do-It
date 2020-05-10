@@ -1,23 +1,32 @@
-.card {
-    padding: 3px;
-}
-.customCard {
-    border: 2px solid rgb(110,110,110);
-    border-radius: 4px;
-    padding: 4px;
-}
-.card-title {
-    font-weight: bold;
-}
-.card-subtitle {
-    font-weight: bold;
-}
-.card-text {
-    font-size: 20px;
-}
-.submission {
+.custom-card {
+    border: 2px solid grey;
+    border-radius: 20px;
+    width: 300px;
+    padding: 5px;
+    height: 250px;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 20px;
     text-align: center;
 }
-.myclass {
-    background-color: red;
+.custom-card:hover {
+    box-shadow: 0px 5px grey;
+    
+}
+.custom-card-title:hover {
+    text-decoration: line-through;
+
+}
+.custom-card-text {
+    height: 100px;
+    overflow: auto;
+    border-top: 1px solid grey;
+}
+.submission {
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+}
+.submission:focus {
+    outline: none;
 }
